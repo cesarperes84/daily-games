@@ -1,17 +1,17 @@
 import type { NextPage } from "next";
 import { useMemo } from "react";
 import Head from "next/head";
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import games from "../utility/games";
-import TextField from "@mui/material/TextField";
-import Autocomplete from "@mui/material/Autocomplete";
-import AppBar from '@mui/material/AppBar';
+/* import TextField from "@mui/material/TextField";
+import Autocomplete from "@mui/material/Autocomplete"; */
+/* import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from '@mui/icons-material/Menu'; */
 
 const Home: NextPage = () => {
   const options = useMemo(
@@ -85,7 +85,7 @@ Most of then get more challenging as the week goes on; for example, a Monday gam
       <div className={styles.container}>
       <footer className={styles.footer}>
         
-          <a href="http://www.cperes.com.br" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.cperes.com.br" target="_blank" rel="noopener noreferrer">
           COPYRIGHT © {new Date().getFullYear()}
           </a>
       </footer>
