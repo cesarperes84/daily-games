@@ -24,11 +24,17 @@
 }
 
 .footer a {
+  font-family: 'Silkscreen', Courier, monospace;
   display: flex;
   justify-content: end;
   align-items: center;
   flex-grow: 1;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 .title a {
@@ -50,6 +56,13 @@
   font-family: 'Silkscreen', Courier, monospace;
   font-weight: normal;
 }
+
+.about h3 { 
+  font-size: 1.25rem;
+  font-family: 'Silkscreen', Courier, monospace;
+  font-weight: normal;
+}
+
 
 .about,
 .title,
@@ -95,7 +108,7 @@
   border-radius: 5px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
-  height: 380px;
+  height: 390px;
 }
 
 .card:hover,
@@ -116,6 +129,17 @@
   font-size: 1.25rem;
   line-height: 1.5;
 }
+
+.about {
+  padding: 0 2rem;
+}
+
+.about p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
 
 .logo {
   height: 1em;
