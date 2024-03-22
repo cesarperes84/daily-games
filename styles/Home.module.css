@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 .container {
   padding: 0 2rem;
@@ -23,7 +24,7 @@
 }
 
 .footer a {
-  font-family: Courier, monospace;
+  font-family: 'Silkscreen', Courier, monospace;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -52,13 +53,13 @@
   margin: 0;
   line-height: 1.15;
   font-size: 1.7rem;
-  font-family: Courier, monospace;
+  font-family: 'Silkscreen', Courier, monospace;
   font-weight: normal;
 }
 
 .about h3 { 
   font-size: 1.25rem;
-  font-family: Courier, monospace;
+  font-family: 'Silkscreen', Courier, monospace;
   font-weight: normal;
 }
 
