@@ -62,7 +62,7 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
           {games.map(({ url, title, description, image, tags, stars }) => (
               <a href={url} target="_blank" className={styles.card}>
-                  <div style={{ textAlign: 'right', width: '240px', margin: 0, padding: 0 }}>{stars > 0 && (new Array(stars).fill(null)).map(() => <img src="images/star.svg" width="16" style={{ marginLeft: '4px' }} />)}</div>
+                  <div style={{ textAlign: 'right', width: '240px', margin: 0, padding: 0 }}>{stars > 0 && (new Array(stars).fill(null)).map(() => <img src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1711043294/thumbs-games/star.svg" width="16" style={{ marginLeft: '4px' }} />)}</div>
                   <div style={{ minHeight: "290px" }}>
                     {image && <img src={image} width="240" height="140" />}
                     <h2>{title}</h2>
