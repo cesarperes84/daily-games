@@ -49,9 +49,7 @@ const Home: NextPage = () => {
             id="combo-box-demo"
             options={options}
             sx={{ width: 340, marginTop: "10px", marginRight: `10px` }}
-            onChange={(event: any, newValue: string | null) => {
-              setSearch(newValue?.label);
-            }}
+            onChange={(event: any, newValue: any) => setSearch(newValue?.label)}
             renderInput={(params) => (
               <TextField {...params} label="Search..." />
             )}
