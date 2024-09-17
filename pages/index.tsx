@@ -72,7 +72,7 @@ const Home: NextPage = () => {
                       .fill(null)
                       .map(() => (
                         <img
-                          src=""
+                          src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1711043294/thumbs-games/star.svg"
                           width="16"
                           style={{ marginLeft: "4px" }}
                         />
