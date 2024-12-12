@@ -74,7 +74,7 @@ const Home: NextPage = () => {
                         <img
                           src="https://res.cloudinary.com/dqaojtmfr/image/upload/v1711043294/thumbs-games/star.svg"
                           width="16"
-                          style={{ marginLeft: "4px" }}
+                          style={{ marginLeft: "4px", marginRight: "5px" }}
                         />
                       ))}
                 </div>
