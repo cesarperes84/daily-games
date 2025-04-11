@@ -1,6 +1,7 @@
 const games = [
-    
+    {title: 'Pokedle', url: 'https://pokedle.net/', description: 'Guess the Pokemon daily', image: 'https://res.cloudinary.com/dqaojtmfr/image/upload/v1744406085/thumbs-games/pokedle.jpg', country: '', tags: ['pokemon'], stars: 4, },
     {title: 'Bandle', url: 'https://bandle.app/', description: 'You have to guess the music play by the band.', image: 'https://res.cloudinary.com/dqaojtmfr/image/upload/v1734033411/thumbs-games/bandle.png', country: '', tags: ['bandle', 'band', 'music'], stars: 4, },
+    {title: 'Mexican Train Dominoes', url: 'https://mexicantrain.com/', description: 'Guess the Pokemon daily', image: 'https://res.cloudinary.com/dqaojtmfr/image/upload/v1744406425/thumbs-games/mexican-train-dominoes.png', country: '', tags: ['dominoes'], stars: 4, },
     {title: 'Popidle', url: 'https://popidle.the-sound.co.uk/guess-the-album', description: 'Guess the album by blurry image', image: 'https://res.cloudinary.com/dqaojtmfr/image/upload/v1734034182/thumbs-games/popidle.png', country: '', tags: ['band', 'music'], stars: 4, },
     {title: 'Cover Quest', url: 'https://coverquest.jbonet.xyz/', description: 'The daily game covers guessing game', image: 'https://res.cloudinary.com/dqaojtmfr/image/upload/v1734034458/thumbs-games/cover-quest.png', country: '', tags: ['game', 'quest'], stars: 3, },
     {title: 'Globle Game', url: 'https://ba.com/game', description: 'Enter the name of any country to make your first guess.', image: 'https://res.cloudinary.com/dqaojtmfr/image/upload/v1711043294/thumbs-games/globle.jpg', country: '', tags: ['globle', 'world'], stars: 4, },
